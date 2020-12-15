@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+:root
+{
+    --primary-color:#F2C94C;
+    --black:#333333;
+
+}
+
+body
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+          color: var(--black);
+          margin: auto;
+
+}
+
+header
+{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+main
+{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+
+}
+textarea
+{
+            width :100%;
+            display: block;
+            min-height: 20vh;
+            margin-top: 2rem;
+            
+            box-sizing: border-box;
+            font-family: 'Open Sans Condensed', sans-serif;
+    
+ }
+ #text-input
+ {
+     font-size: x-large;
+
+ }
+
+ /*div*/
+#output
+   {
+            border: 1px solid var(--black);
+            min-height: 10vh;
+           max-height: 30vh;
+            margin-bottom: 2rem;
+            width:100%;
+            overflow: scroll;
+        
+        
+
+  }
+
+  #btn-translate
+  {
+             background-color: var(--primary-color);
+             font-family: 'Open Sans Condensed', sans-serif;
+             font-size:large;
+             border: none;
+             margin: 1rem 0rem;
+             padding: 1rem 3rem;
+             
+             
+             
+  }
+
+  .footer
+  {
+      background-color: var(--primary-color);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: var(--black);
+      text-align: center
+
+  }
+  footer p {
+    max-width:600px;
+    margin: auto;
+    font-size: larger;
+}
+
+
+  
