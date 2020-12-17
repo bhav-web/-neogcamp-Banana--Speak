@@ -24,8 +24,8 @@ function errorHandler(error)
     console.log("clicked")
 
     // calling sever for processing
-    fetch(getTranslationURL(inputText)).then(Response=>Response.json()).
-    then(json=>
+    fetch(getTranslateURL(inputText)).then(Response=>Response.json())
+    .then(json=>
         {
             
             var translatedText=json.contents.translated;
